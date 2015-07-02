@@ -17,9 +17,9 @@
     "mocha-lcov-reporter": "0.0.2"
   },
   "dependencies": {
-    "attr": "git://github.com/utilise/attr",
-    "noop": "git://github.com/utilise/noop",
-    "owner": "git://github.com/utilise/owner",
-    "raw": "git://github.com/utilise/raw"
+    "attr": "git+https://github.com/utilise/attr.git",
+    "noop": "git+https://github.com/utilise/noop.git",
+    "owner": "git+https://github.com/utilise/owner.git",
+    "raw": "git+https://github.com/utilise/raw.git"
   }
 }
