@@ -14,12 +14,13 @@
     "istanbul": "^0.3.13",
     "jsdom": "^5.4.3",
     "mocha": "^2.2.4",
+    "noop": "git+https://github.com/utilise/noop.git",
+    "owner": "git+https://github.com/utilise/owner.git",
+    "client": "git+https://github.com/utilise/client.git",
     "mocha-lcov-reporter": "0.0.2"
   },
   "dependencies": {
     "attr": "git+https://github.com/utilise/attr.git",
-    "noop": "git+https://github.com/utilise/noop.git",
-    "owner": "git+https://github.com/utilise/owner.git",
     "raw": "git+https://github.com/utilise/raw.git"
   }
 }
