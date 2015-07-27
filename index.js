@@ -1,5 +1,5 @@
-var attr = require('attr')
-  , raw = require('raw')
+var attr = require('utilise.attr')
+  , raw = require('utilise.raw')
   
 module.exports = link
 

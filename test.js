@@ -1,13 +1,13 @@
 var expect = require('chai').expect
-  , client = require('client')
-  , owner = require('owner')
+  , client = require('utilise.client')
+  , owner = require('utilise.owner')
   , shim = !client && polyfill()
   , realMutationObserver = owner.MutationObserver
   , MutationObserver = mockMutationObserver()
-  , attr = require('attr')
-  , noop = require('noop')
+  , attr = require('utilise.attr')
+  , noop = require('utilise.noop')
   , link = require('./')
-  , raw = require('raw')
+  , raw = require('utilise.raw')
   , node
 
 describe('link', function() {
