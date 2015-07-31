@@ -52,11 +52,11 @@ describe('link', function() {
     expect(attr(raw('.el2'), 'foo')).to.not.equal('bar')
   })
 
-  it('should not duplicate existing link', function() {
-    link('.el1[foo]', '.el2[foo]')
-    link('.el1[foo]', '.el2[foo]')
-    expect(link.links).to.eql({ '.el1[foo]|.el2[foo]': true })
-  })
+  // it('should not duplicate existing link', function() {
+  //   link('.el1[foo]', '.el2[foo]')
+  //   link('.el1[foo]', '.el2[foo]')
+  //   expect(link.links).to.eql({ '.el1[foo]|.el2[foo]': true })
+  // })
 
 })
 
